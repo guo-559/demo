@@ -9,7 +9,7 @@ This project includes:
 
 ## Setup
 
-1. Make sure you can pull images from the NGC Catalog [NGC Catalog](https://catalog.ngc.nvidia.com/). Follow the instructions [here](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html#ngc-authentication).
+1. Make sure you can pull images from the [NGC Catalog](https://catalog.ngc.nvidia.com/). Follow the instructions [here](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html#ngc-authentication).
 
 2. Once you have the Docker image, you should be able to start the server (check you have all the necessary api keys etc.) :
    ```sh
@@ -18,5 +18,3 @@ This project includes:
 3. The frontend uses Gradio:
    ```sh
    python3 ./chat.py
-
-   
