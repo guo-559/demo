@@ -10,5 +10,5 @@ This project includes:
 
 1. TODO
    ```sh
-   ask someone to write this 
+   ask jeremy to write this 
 
