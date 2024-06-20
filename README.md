@@ -10,5 +10,5 @@ This project includes:
 
 1. TODO
    ```sh
-   ask Shenglong to write this 
+   ask whoever to write this 
 
