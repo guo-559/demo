@@ -17,7 +17,7 @@ echo "NGC_API_KEY set to $NGC_API_KEY"
 echo "Run with sudo -E ./nim_server.sh so the NGC_API_KEY is retained "
 
 # Start the LLM NIM (modify the GPUs accordingly if u are messing ard with lots of containers )
-docker run -it --rm --name=$CONTAINER_NAME \
+docker run -d --name=$CONTAINER_NAME \
   --runtime=nvidia \
   --gpus "device=1" \
   --shm-size=16GB \
@@ -26,3 +26,7 @@ docker run -it --rm --name=$CONTAINER_NAME \
   -u $(id -u) \
   -p 8001:8000 \
   $IMG_NAME
+
+# TODO:
+# pause the container, restart the container  (with docker start, docker stop etc.)
+
