@@ -15,7 +15,7 @@ class Conversation:
 
         try:
             response = self.client.chat.completions.create(
-                model="meta/llama3-70b-instruct",
+                model="meta/llama3-8b-instruct",
                 max_tokens=2000,
                 stream=True,
                 temperature=0.4,

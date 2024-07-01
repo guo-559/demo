@@ -14,6 +14,10 @@ client = Elasticsearch(
 )
 
 print(client.info())
+# print(client.cluster.health())
+# print(client.cluster.stats())
+# print(client.nodes.stats())
+
 
 document_id = str(uuid.uuid4())
 
@@ -59,3 +63,5 @@ response = client.search(index="books", body=search_query)
 print("\n Getting response \n")
 # Print the response
 print(response)
+
+
