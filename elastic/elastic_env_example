@@ -1,0 +1,9 @@
+# Elaticsearch credentials
+# Note: to use this, rename the file extension to .env and choose approriate variables.
+ELASTIC_URL=TODO
+ELASTIC_USERNAME=TODO
+ELASTIC_PASSWORD=TODO
+ES_INDEX=TODO
+ES_INDEX_CHAT_HISTORY=TODO
+NVIDIA_API_KEY= [Get from NGC]
+OPENAI_API_KEY= [For embedding. Can switch to a free one.]
