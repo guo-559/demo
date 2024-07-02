@@ -3,8 +3,8 @@
 This project includes:
 
 - Shell scripts for setting up the NVIDIA Docker container
-- Python code for the Gradio frontend
-- TODO: Vector database for RAG
+- A simple Gradio frontend
+- Some RAG examples
 - TODO: Remove the keys and put the IP addresses, etc., in environment variables
 
 ## Setup
@@ -18,3 +18,5 @@ This project includes:
 3. The frontend uses Gradio:
    ```sh
    python3 ./chat.py
+
+4. For the code in the elastic folder, it uses the NVIDIA NIM image for generation, but the elastic database needs to be intialized. There's an example environment file here which is needed (rename the extension to .env)
